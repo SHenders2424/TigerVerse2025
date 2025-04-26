@@ -1,0 +1,34 @@
+{
+    "name": "XRControls",
+    "maps": [
+        {
+            "name": "XRController",
+            "id": "90537b25-74ef-4537-8691-69a55aa913ca",
+            "actions": [
+                {
+                    "name": "AButton",
+                    "type": "Button",
+                    "id": "5829c623-2bc1-471e-b582-e9829e41f29e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d952ebd6-5c02-46ec-819f-78467039ae42",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
