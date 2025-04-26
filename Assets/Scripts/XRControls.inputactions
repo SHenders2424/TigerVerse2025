@@ -6,24 +6,24 @@
             "id": "90537b25-74ef-4537-8691-69a55aa913ca",
             "actions": [
                 {
-                    "name": "AButton",
-                    "type": "Button",
+                    "name": "Move",
+                    "type": "Value",
                     "id": "5829c623-2bc1-471e-b582-e9829e41f29e",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
                 {
                     "name": "",
                     "id": "d952ebd6-5c02-46ec-819f-78467039ae42",
-                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "path": "<XRController>{RightHand}/{Primary2DAxis}",
                     "interactions": "",
-                    "processors": "",
+                    "processors": "StickDeadzone",
                     "groups": "",
-                    "action": "AButton",
+                    "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

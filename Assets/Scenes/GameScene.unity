@@ -903,7 +903,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b524bcd2a6f0547a48780ddbb3f30eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  aButtonAction: {fileID: -3025564810336887717, guid: 05e0e7e90598c43cc89efdc5ce9bcd40, type: 3}
+  joystickAction: {fileID: -3025564810336887717, guid: 05e0e7e90598c43cc89efdc5ce9bcd40, type: 3}
+  threshold: 0.5
 --- !u!1 &425771369
 GameObject:
   m_ObjectHideFlags: 0
